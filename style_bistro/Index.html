@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- find suitable favicon -->
+  <style type="text/css">
+      
+  </style>
+	<!-- add button to turn on navbar for mainpage or add nav bar for mainpage -->
+	<title>Style Bistro</title>
+	<link href="stylesheetII.css" rel="stylesheet">
+</head>
+<header>
+  <h1>Style Bistro</h1>   
+    <div>
+      <ul>
+        <li><a class="active" href="Index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="Venue.html">Venue</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  <div class="cookieBanner">
+      <div class="cookieBox">
+        <p>This website may use cookies for the best user experience. Please agree to our cookie policy, you can read it <a target="blank" href="https://orteil.dashnet.org/cookieclicker/">here</a>.</p>
+        <a id="cookieButton" type="button" onclick="cookieConsentAgree()">OK</a>
+      </div>
+    </div>
+</header>
+<body>
+<div id="main_title" class="slide header">
+  <h1>Style Bistro</h1>
+</div>
+
+<div id="slide_I" class="slide" onclick="location.href='About.html'">
+    <div class="title_II">
+      <h1>A Chique Retreat</h1>
+      <p>Your stylish restaurant to meet friends and relax, right in the heart of this vibrant city. Step out of the hustle and bustle and step into the suave luxury of the Style Bistro.
+      </p>
+      <h2 class="mainpage_button_I"> About >> </h2>
+    </div>
+ </div>
+<div id="slide_II" class="slide" onclick="location.href='Menu.html'">
+  <div class="title_III">
+    <h1>Coffee and Treats</h1>
+    <p>Our menus are composed by our world-class chefs with hundreds of years of combined experience. Take your taste buds on a culinary adventure and enjoy our delicious delicacies.
+    </p>
+    <h2 class="mainpage_button_II"> << Menu </h2>
+  </div>
+  <img src="images/test_VIII.jpg">
+  <img src="images/test_IX.jpg"> 
+</div>
+
+<div id="slide_III" class="slide" onclick="location.href='Venue.html'">
+  <div class="title_II">
+    <h1>Venue</h1>
+    <p>The Style Bistro comes with a small cinema and a large event space. A wide range of performances are scheduled for the entertainment of our guests. Look out for something that takes your fancy.</p>
+    <h2> Events >></h2>
+  </div>
+</div>
+<div id="slide_IV" class="slide header" onclick="location.href='Contact.html'">
+  <div id="footer">
+  <h1>Get in touch</h1>
+</div>
+
+<!-- Sitemap, legal notice and accessibility to go at the bottom of each page. -->
+
+</div>
+    <script scr="global.js"></script>
+    <script>
+      document.getElementById('cookieButton').addEventListener("click", function() {
+      document.querySelector('.cookieBanner').style.display = "none";
+      });
+    </script>
+</body>
+ <footer style=" font-family: none; text-align: center; font-size: 15px; height: 25px;">
+ <small style="display: inline-block;">&copy;<a href="mailto:123samueld@gmail.com">Samuel Davidson</a> 2019</small>
+ </footer>
+</html>

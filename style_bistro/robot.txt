@@ -1,0 +1,5 @@
+User-agent:*
+Allow: /style_bistro/sitemap.html
+
+User-agent: *
+Disallow: /
